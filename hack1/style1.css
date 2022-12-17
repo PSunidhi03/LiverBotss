@@ -1,0 +1,12 @@
+.flex-container {
+  display: flex;
+  width: 50%;
+
+  border: 2px;
+  flex-direction: row;
+}
+
+.flex-box {
+  border-color: black;
+  width: 100px;
+}
