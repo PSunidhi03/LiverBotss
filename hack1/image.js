@@ -9,14 +9,11 @@ function incr(a) {
             document.getElementById('res').innerHTML = 'Wrong password'
             else {
             document.getElementById('res').innerHTML = 'Wrong Password'
-            // alert(Wrong Password!)
-            // const node = document.createElement("input")
-            // const node1 = document.createElement("a")
-            // node.setAttribute("type", "button")
-            // node1.setAttribute("href", "login.html")
-            // node.append(node1)
-            // document.getElementById('but').append(node)
-            }
-            }
-   }
-
+            
+            let node = document.createElement("button")
+            node.type = 'submit'
+            node.innerHTML = "<a href= 'login.html'> Login Page</a>"
+            document.getElementById('but').appendChild(node)
+        }
+    }
+}
