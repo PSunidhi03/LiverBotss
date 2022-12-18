@@ -1,0 +1,16 @@
+.flex-container {
+  display: flex;
+  width: 50%;
+
+  border: 2px;
+  flex-direction: row;
+}
+
+.flex-box {
+  border-color: black;
+  width: 100px;
+}
+#box:checked {
+  background: #fffc47;
+  color: #666666;
+}
